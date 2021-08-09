@@ -1,0 +1,29 @@
+###
+GET http://localhost:3003/users
+
+
+###
+GET http://localhost:3003/products
+
+
+###
+ POST http://localhost:3003/user/create
+ Content-Type: application/json
+ 
+ {
+   "name":  "Magali",
+   "email": "maga@gmail.com",
+   "age": "22" 
+   }
+
+  
+###
+POST  http://localhost:3003/product/create
+Content-Type: application/json
+
+{
+   "name":  "Bolo",
+   "description": "com guarantia",
+   "price": "150.00" 
+}
+
